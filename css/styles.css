@@ -129,12 +129,19 @@ a {
   border-radius: var(--radius-lg);
   text-align: left;
 }
+.btn-huge i {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
 .btn-huge small {
   display: block;
   font-weight: 400;
   font-size: 0.85rem;
   opacity: 0.9;
   margin-top: 4px;
+}
+.phone-number {
+  white-space: nowrap;
 }
 
 .shadow-red {
@@ -621,6 +628,16 @@ a {
   .hamburger-menu { display: block; }
   .header-right .header-cta { display: none; } /* Hide in menu or leave only hamburger */
 
+  .hero-buttons .btn {
+    min-width: 100%;
+  }
+  .btn-huge {
+    padding: 14px 20px;
+    font-size: 1.05rem;
+  }
+  .btn-huge i {
+    font-size: 1.6rem;
+  }
 
   /* Grids */
   .about-grid { grid-template-columns: 1fr; }
