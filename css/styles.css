@@ -140,9 +140,7 @@ a {
   opacity: 0.9;
   margin-top: 4px;
 }
-.phone-number {
-  white-space: nowrap;
-}
+
 
 .shadow-red {
   box-shadow: var(--shadow-red);
