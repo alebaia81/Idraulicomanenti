@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (waButton) {
         waButton.addEventListener('click', (e) => {
             e.preventDefault();
-            const phoneNumber = '393495698345';
-            const message = "Ciao Davide, ho bisogno di un intervento idraulico. Mi trovo in [inserire zona]. Potresti ricontattarmi per favore?";
+            const phoneNumber = '393331234567';
+            const message = "Ciao, ho bisogno di un intervento idraulico. Mi trovo in [inserire zona]. Potresti ricontattarmi per favore?";
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
         });
